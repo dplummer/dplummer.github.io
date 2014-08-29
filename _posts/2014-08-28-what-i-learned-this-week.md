@@ -1,5 +1,6 @@
 ---
-published: false
+published: true
+title: What I learned this week #1
 ---
 
 On this week's Ruby Rogues on [evaluating yourself](http://rubyrogues.com/171-rr-evaluating-yourself/), [Saron](https://twitter.com/saronyitbarek) mentioned blogging about what she learned during the week. So I'll give a go:

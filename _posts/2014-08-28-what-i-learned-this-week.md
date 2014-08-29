@@ -1,6 +1,7 @@
 ---
 published: true
 title: What I learned this week #1
+layout: post
 ---
 
 On this week's Ruby Rogues on [evaluating yourself](http://rubyrogues.com/171-rr-evaluating-yourself/), [Saron](https://twitter.com/saronyitbarek) mentioned blogging about what she learned during the week. So I'll give a go:
@@ -16,3 +17,4 @@ Here's what I learned this week:
 What I want to learn more about:
 
 * How to test services. We've got two rails projects, one with a JSON API and a database connection, the second that consumes the API and renders HTML. The problem I have is when I want to add a feature and want an integration test that uses the API. Like if I add a field to an existing resource. Currently we've got a mocked service locally. I want to know if there's a better way to integration test internal APIs.
+* How to publish and set correct metadata in prose.io. Really annoying. Might have to write a blog engine.  

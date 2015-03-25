@@ -9,6 +9,7 @@ were getting filled up by health checks. So I wrote this simple rack middleware
 to silence the logs:
 
 ```ruby
+# lib/log_silencer.rb
 class LogSilencer
   def initialize(app, opts = {})
     @silenced = opts.delete(:silenced)
@@ -31,6 +32,7 @@ I was inspired by [a stackoverflow answer](http://stackoverflow.com/a/10310064),
 configured with the following in the `config/application.rb`:
 
 ```ruby
+# config/application.rb
 require 'log_silencer'
 config.middleware.insert_before Rails::Rack::Logger,
   LogSilencer,

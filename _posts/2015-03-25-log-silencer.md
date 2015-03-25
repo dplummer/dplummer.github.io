@@ -27,8 +27,7 @@ class LogSilencer
 end
 ```
 
-I was inspired by (a stackoverflow
-answer)[http://stackoverflow.com/a/10310064], but wanted to improve on it. It's
+I was inspired by [a stackoverflow answer](http://stackoverflow.com/a/10310064), but wanted to improve on it. It's
 configured with the following in the `config/application.rb`:
 
 ```ruby
